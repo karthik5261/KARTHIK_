@@ -1,0 +1,35 @@
+Versioning: 
+	Maintaining multiple copies of same object (file, folder or any) is called versioning.
+
+How do we maintain?
+	Two ways
+	a) Standlone tools
+	b) Web
+
+	Ex: TFS[Team foundation server]
+	     VSS[Visual Source Safe]
+	PVCS [Polytron Version Control System]
+	SubVersion
+	GitHub 
+
+Github versioning: [ Create an account in github.com and then follow the below process]
+	1. We create repository and place all artifacts with appropriate description [remarks]
+	2. In case of changes to the artifacts, we should follow the below process.
+
+		a) All objects inside "master" branch, hence create a "child branch". So that all artifacts inside child branch.
+
+		b) Download child branch artifacts, unzip, and modify.
+
+		c) Upload modified to child branch
+		d) Request for "PULL" child artifacts to master and go for merge.
+		e) Once successfully merge completed, simply drop child branch.
+		f) Go to master branch and see the versioning and history of document changes.
+
+
+
+
+
+
+
+
+		
